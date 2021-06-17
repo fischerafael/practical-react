@@ -17,7 +17,7 @@ const SwitchButtonStyle = styled.label`
     align-items: center;
     justify-content: center;
     position: relative;
-    background: lightgray;
+    background: #eeeeee;
     border-radius: 50vh;
 
     input {
@@ -31,7 +31,7 @@ const SwitchButtonStyle = styled.label`
         border-radius: 50%;
         width: 50%;
         height: 100%;
-        background: gray;
+        background: lightgray;
         left: 0;
         cursor: pointer;
         transition: 0.25s;
