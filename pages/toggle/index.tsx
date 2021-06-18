@@ -14,7 +14,7 @@ const index = () => {
     return (
         <PageWrapper isDarkMode={isChecked}>
             <h1>{isChecked ? 'Checado' : 'Não Checado'}</h1>
-            <ToggleSwitch onClick={handleCheck} />
+            <ToggleSwitch isChecked={isChecked} onClick={handleCheck} />
         </PageWrapper>
     )
 }

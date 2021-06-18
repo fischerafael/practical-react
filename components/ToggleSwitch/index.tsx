@@ -1,10 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export const ToggleSwitch = ({ onClick }) => {
+export const ToggleSwitch = ({ onClick, isChecked }) => {
     return (
         <ToggleSwitchWrapper>
-            <input type="checkbox" onClick={onClick} />
+            <input
+                type="checkbox"
+                defaultChecked={isChecked}
+                onClick={onClick}
+            />
             <span />
         </ToggleSwitchWrapper>
     )
