@@ -5,8 +5,6 @@ import { ToggleSwitch } from '../../components/ToggleSwitch'
 const index = () => {
     const [isChecked, setChecked] = React.useState(false)
 
-    console.log('is checked', isChecked)
-
     const handleCheck = () => {
         setChecked((prevState) => !prevState)
     }
